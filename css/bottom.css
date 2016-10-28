@@ -1,0 +1,8 @@
+.bottom{width: inherit;height: 140px;}
+.foot{
+    width: 1000px;height: inherit;
+    margin: 0 auto;
+}
+.foot p{font-size: 14px;padding-top: 33px;}
+.foot a{color: #3E62A6;}
+.foot a:hover{color: red;}

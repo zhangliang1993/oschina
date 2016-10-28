@@ -1,0 +1,89 @@
+.main{
+    width: 998px;height: 840px;
+    margin: 20px auto 0;
+    border: 1px solid #DDDDDD;
+    position: relative;
+}
+.left{
+    width: 570px;height: 805px;float: left;
+    margin-top: 15px;margin-left: 20px;
+}
+.head_tip {padding-left: 20px;font-size: 12pt;}
+.head_tip a {text-decoration: none;color: #3E62A6;}
+.head_tip a:hover{color: red;}
+strong {
+    color: #FFF;  font-size: 14px;
+    background: #ffbe6b;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    left: 1em;
+    padding: 0 0.5em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+i {
+    color: #ffbe6b;
+    font-style: normal;/*菱形*/
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: -4px;
+}
+#OSChinaLoginTip {clear:both;margin:10px 0 20px 0;color:#060;}
+#OSChinaLoginTip ul {overflow:hidden;margin:15px 0 0 0;}
+#OSChinaLoginTip ul li {float:left;width:95px;list-style-type: none;}
+li#openid_sina img {margin-top:8px;}/*li#openid_sina*/
+#openid_github img {margin-top:8px;}
+#openid_yahoo img {margin-top:15px;}
+#openid_gmail img {margin-top:8px;}
+#openid_aliyun img {margin-top:8px;}
+#openid_qq img {margin-top:8px; width:65px; height:30px}
+
+
+
+th {font-size:10.5pt;text-align:right;padding:10px;}
+td {vertical-align:middle;/*把此元素放置在父元素的中部*/font-size: 12.5px;}
+table input{
+    font-size:16px;
+    padding:3px;
+    border:1px solid #ccc;
+    outline: none; /*取消默认轮廓  作用:使点击input获得焦点更改边框颜色有效*/
+}
+table input:focus {
+    border:1px solid #40AA53;
+}
+select {font-size:16px;padding:3px;}
+table ol{
+    border:1px solid #40AA53;/*给有序列表设置边框*/
+    padding:10px;
+    color:#40AA53;
+    line-height:22px;
+    margin: 0 0 10px 0;
+}
+table ol li{margin-left: 20px;}
+span{font-size: 13.5px;}
+.SUBMIT {
+    width:100px;height: 30px;
+    background: #5CC26F;
+    color: white;font-size: 13px;
+    font-weight:bold;
+}
+.SUBMIT:hover {background: green;}
+
+.right{
+    width: 230px;height: 300px;
+    position: absolute;
+    top: 25px;right: 95px;
+
+    font-size:10.5pt;color:#666;
+}
+.right h3 {margin:30px 0 10px 0;font-size:11pt;}
+.right ol {
+    font-size:10pt;
+    padding:10px 5px;
+    list-style-position: inside;/*标记放置在文本以内，且环绕文本根据标记对齐。*/
+}

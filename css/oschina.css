@@ -1,0 +1,26 @@
+body,div,ul,li,h2,h3,p,ol{
+    margin: 0;
+    padding: 0;
+}
+.oschina {
+    width: 100%;
+    height: 1130px;
+    position: relative;
+}
+.day {
+	width: 150px;height: 30px;
+	position: fixed;
+	top: 30px;
+}
+.time {
+	width: 150px;height: 30px;
+	position: fixed;
+	top: 60px;
+}
+.day p{
+	line-height: 30px;margin-left: 10px;
+}
+.time p{
+	font-weight: bolder;
+	line-height: 30px;margin-left: 25px;
+}

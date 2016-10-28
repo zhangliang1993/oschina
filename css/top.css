@@ -1,0 +1,70 @@
+.top {
+    width: inherit;
+    height: 30px;
+    background: #15A230;
+}
+/* 导航栏 */
+.navigation{
+    width: 1000px;height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.navigation a{/*整个顶部栏链接的属性*/
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+.navigation a:hover{opacity: 0.8;}
+.navigation_left{  width: 500px;height: inherit;float: left;  }
+.navigation_left li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;  
+}
+.navigation_left a{font-size: 0.9em;}/*导航栏链接的字体*/
+/* 登录栏 */
+.login{  width: 500px;height: inherit;float: left;  }
+.login p{
+    color: #DDDDDD;font-size: 0.8em;
+    position: absolute;
+    right: 0px;
+}
+.login a{font-size: 1.1em;}/*登录栏链接的字体*/
+/* 搜索栏 */
+.second{
+    width: inherit;height: 80px;
+    background: #F5F5F5;
+}
+.second_center{
+    width: 1000px;height: inherit;
+    margin: 0 auto;
+}
+.logo{
+    width: 300px;height: inherit;
+    float: left;
+}
+.searches{
+    width: 700px;height: inherit;
+    float: left;
+    position: relative;
+    right: 0px;
+}
+#box{
+    width: 248px;height: 28px;
+    border: 1px solid #40AA53;
+    margin-top: 25px;margin-left:400px; 
+}
+.searches a{
+    text-decoration: none;
+}
+.search{
+    width: 50px;height: 32px;
+    background: #40AA53;
+    position: absolute;
+    top:25px;right: 0px;
+
+    color: white;font-size: 0.9em;
+    text-align: center;line-height: 32px;  
+}
+
+

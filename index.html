@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>加入开源中国 - 开源中国社区</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/oschina.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bottom.css">
+</head>
+<body>
+<div class="oschina">
+<div class="day"><p id="txt1"></p></div>
+<div class="time"><p id="txt2"></p></div>
+
+    <div class="top">
+        <div class="navigation">
+            <div class="navigation_left">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">开源项目</a></li>
+                    <li><a href="">问答</a></li>
+                    <li><a href="">代码</a></li>
+                    <li><a href="">博客</a></li>
+                    <li><a href="">翻译</a></li>
+                    <li><a href="">资讯</a></li>
+                    <li><a href="">专题</a></li>
+                    <li><a href="">城市圈</a></li>
+                 </ul>
+            </div>
+            <div class="login">
+                <p>当前访客身份:游客[ <a href="">登录</a>|<a href="">加入开源中国</a> ]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="second">
+        <div class="second_center">
+            <div class="logo">
+                <img src="images/logo.PNG">
+            </div>
+            <div class="searches">
+                <input placeholder=" 资讯、软件、分享、代码、博客" id="box"><a href="http://www.oschina.net/search?scope=project&q=" target="_blank"><div class="search">搜索</div></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        
+        <div class="left">
+            <h2>加入开源中国
+                <span class="head_tip" >
+                    <a href="http://www.oschina.net/home/reg-by-phone" target="_blank">通过手机号码注册开源账号</a>
+                    <strong>推荐<i>◆</i></strong>
+                </span>
+            </h2>
+            <hr>
+            <div id="OSChinaLoginTip">
+            <span>支持以下几种自动注册方法（无需手工激活账号，请点击以下图标进入）</span>
+            <ul>
+                <li id='openid_sina'><a href="http://www.oschina.net/action/openid/before_bind?op=weibo"><img src='images/weibo.png'/></a></li>
+                <li id='openid_github'><a href="http://www.oschina.net/action/openid/before_bind?op=github"><img src='images/github_logo.png'/></a></li>
+                <li id='openid_wechat'><a href="http://www.oschina.net/action/openid/before_bind?op=wechat"><img src='images/weixin_logo.png'/></a></li>
+                <li id='openid_yahoo'><a href="http://www.oschina.net/action/openid/before_bind?op=yahoo"><img src='images/yahoo.png'></a></li>
+                <li id='openid_gmail'><a href="http://www.oschina.net/action/openid/before_bind?op=gmail"><img src='images/google_25wht.png'/></a></li>
+                <li id='openid_aliyun'><a href="http://www.oschina.net/action/openid/before_bind?op=aliyun"><img src='images/aliyun_logo.png' width="82"/></a></li>
+            </ul>
+            <ul>
+                <li id='openid_qq'><a href="http://www.oschina.net/action/openid/before_bind?op=qq"><img src='images/qq.png'/></a></li>
+            </ul>
+            </div>
+            <table cellspacing='0' cellpadding='0'>
+            <tr id='tr_email'>
+                <th nowrap>电子邮箱：</th>
+                <td>
+                    <input width="200px" id="f_email">
+                    <span>不建议使用 Gmail，原因你知道的</span>
+                </td>               
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                <ol>
+                    <li style='color:#A00;'>请填写真实邮箱，用于激活您的帐号；</li>
+                    <li>包括 Gmail 在内很多邮件服务商会把 oschina 发送的邮件识别为垃圾邮件；</li>
+                    <li>如果您使用<span style='color:#A00;'>163邮箱</span>，那么邮件可能在您的订阅邮件列表中</li>
+                    <li>如果您没有收到 oschina 发送的邮件，请注意查看您邮箱中的垃圾邮件；</li>
+                    <li>请将来自 oschina 的邮件设置成不是垃圾邮件，以便接收本站邮件；</li>
+                    <li>如果您忘记登录密码，也可以通过此邮箱进行密码重置；</li>
+                </ol>
+                </td>
+            </tr>
+            
+            <tr>
+                <th>个性网址：</th>
+                <td>
+                    http://my.oschina.net/<input maxlength='20' id="f_ident" style='width:140px;'/>
+                    <span>设置后不能修改，请妥善填写</span>
+                </td>
+            </tr>
+        
+            <tr>
+                <th>用户名：</th>       
+                <td><input maxlength='20' id="f_name" style='width:150px;'/>
+                    <span>不能超过10个字</span>
+                </td>
+            </tr>
+            <tr>
+                <th>登录密码：</th>
+                <td><input type='password' id="f_pwd" style='width:150px;'/>
+                    <span>至少6位,必须是字母或特殊符号和数字结合</span>
+                </td>           
+            </tr>
+            <tr>
+                <th>密码确认：</th>      
+                <td><input type='password' id="f_pwd2" style='width:150px;'/></td>
+            </tr>
+            <tr id='tr_gender'>
+                <th>性别：</th>        
+                <td>
+                    <input type='radio' name='gender' value='1' id='gender_1'/><label for='gender_1'>男</label>&nbsp;
+                    <input type='radio' name='gender' value='2' id='gender_2'/><label for='gender_2'>女</label>
+                    <span class='nodisp'>请选择性别,注册后无法修改</span>
+                </td>   
+            </tr>
+            <tr id='tr_area'>
+                <th>居住地区：</th>      
+                <td><select onchange="showcity(this.value, document.getElementById('userCity'));" name="province" id="userProvince">
+                    <option value=''>--请选择省份--</option>
+                    <option value=北京>北京</option>
+                    <option value=上海>上海</option>
+                    <option value=广东>广东</option>
+                    <option value=江苏>江苏</option>
+                    <option value=浙江>浙江</option>
+                    <option value=重庆>重庆</option>
+                    <option value=安徽>安徽</option>
+                    <option value=福建>福建</option>
+                    <option value=甘肃>甘肃</option>
+                    <option value=广西>广西</option>
+                    <option value=贵州>贵州</option>
+                    <option value=海南>海南</option>
+                    <option value=河北>河北</option>
+                    <option value=黑龙江>黑龙江</option>
+                    <option value=河南>河南</option>
+                    <option value=湖北>湖北</option>
+                    <option value=湖南>湖南</option>
+                    <option value=江西>江西</option>
+                    <option value=吉林>吉林</option>
+                    <option value=辽宁>辽宁</option>
+                    <option value=内蒙古>内蒙古</option>
+                    <option value=宁夏>宁夏</option>
+                    <option value=青海>青海</option>
+                    <option value=山东>山东</option>
+                    <option value=山西>山西</option>
+                    <option value=陕西>陕西</option>
+                    <option value=四川>四川</option>
+                    <option value=天津>天津</option>
+                    <option value=新疆>新疆</option>
+                    <option value=西藏>西藏</option>
+                    <option value=云南>云南</option>
+                    <option value=香港>香港特别行政区</option>
+                    <option value=澳门>澳门特别行政区</option>
+                    <option value=台湾>台湾</option>
+                    <option value=海外>海外</option>
+                    </select>
+                    <select name="city" id="userCity"></select>                    
+                    <span class='nodisp'>请选择您所在的地区</span></td>
+            </tr>
+            <tr>
+                <th>验证码：</th>       
+                <td><input id="f_vcode" size='6'/>
+                <span><a href="javascript:createCode()">换另外一个图</a></span>
+                </td>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>     
+                <td>
+                <input id="code" value="" style="border:2px solid #ccc;">
+            <script>
+                var code ; //在全局定义验证码             
+                window.onload = createCode; //当打开浏览器的时候就进行调用
+                //产生验证码
+                function createCode(){  
+                    code = "";   
+                    var codeLength = 6;//验证码的长度  
+                    var checkCode = document.getElementById("code");//获取当前的显示验证码的按钮 
+                    var random = new Array(0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');//随机数  
+                    for(var i = 0; i < codeLength; i++) {//循环操作  
+                        var index = Math.floor(Math.random()*62);//取得随机数的索引（0~61）  
+                        code += random[index];//根据索引取得随机数加到code上  
+                    }
+                checkCode.value = code;//把code值赋给验证码  
+                }
+            </script>
+                </td>
+            </tr>
+            <tr class='buttons'>
+                <th>&nbsp;</th>     
+                <td style='padding:20px 0;'>
+                <input type='submit' value='注册新用户 &raquo;' class='SUBMIT'/><!--">>"  &raquo-->
+                <span id='error_msg' class='error_msg' style='display:none'></span>
+
+                <br/><br/>
+                &nbsp;<span style='color:#40AA53;'>OSCHINA倡导真实的技术交流环境，请注册成功后上传真实头像，<a href="http://www.oschina.net/question/12_7806" target="_blank">了解详情&raquo;</a></span>
+                </td>
+            </tr>
+            </table>
+        </div>
+
+        <div class="right">
+            已有帐号？ <a href="">直接登录</a>
+            <h3>为什么要注册？</h3>
+            <ol>
+                <li>发布开源软件、新闻和博客</li>
+                <li>参与开源软件/新闻的讨论和评论</li>
+                <li>和别人分享软件使用心得</li>
+                <li>随时得到软件最新更新消息</li>
+                <li>认识更多开源爱好者</li>
+            </ol>
+            <h3>为什么总提示验证码错误？</h3>
+            <ol>
+                <li>首先请确定浏览器已经启用Cookie</li>
+                <li>实在不行，邮件给我们 market AT oschina.net</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="foot">
+            <p style="color:#737573;">开源中国(OSChina.NET) | <a href="http://www.oschina.net/home/aboutosc" target="_blank">关于我们</a> | <a href="">广告联系</a> | <a href="">@新浪微博</a> | <a href="">开源中国手机版</a> | <a href="" style='color:#737573;text-decoration:none;'>粤ICP备12009483号-3</a></p>
+            <p style="color:#737573;">开源中国社区(OSChina.net)是工信部 <a href="">开源软件推进联盟</a> 指定的官方社区</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/getcity.js"></script>
+<script src="js/time.js"></script>
+</html>
